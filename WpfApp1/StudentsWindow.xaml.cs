@@ -28,6 +28,7 @@ namespace WpfApp1
             this.comboBoxInternational.SelectedIndex = 0;
             this.radioButtonGenderFemale.IsChecked = true;
             DataContext = Student.Read();
+
             
         }
 

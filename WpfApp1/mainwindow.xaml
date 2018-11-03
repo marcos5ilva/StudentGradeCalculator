@@ -31,7 +31,7 @@
 
         </Grid.ColumnDefinitions>
         <Rectangle HorizontalAlignment="Center" Height="256"  VerticalAlignment="Center" Width="485" Fill="#FFD2D2D2" Grid.Column="1" Margin="103,10,112,-118" Grid.Row="13"/>
-        <DataGrid x:Name="myDataGrid" AutoGenerateColumns="True" ItemsSource="{Binding}" Grid.Column="4" Margin="77,2,-367,18" Grid.RowSpan="13" Grid.Row="1"/>
+        
         <Button x:Name="Students" Content="Start" Grid.Column="1" HorizontalAlignment="Left" Margin="272,136,0,-5" Background="#FF626B73" Grid.Row="13" VerticalAlignment="Top" Width="140" Click="Students_Click" Foreground="#FFF7EDED"/>
         <Rectangle Grid.Column="1" Fill="#FFD2D2D2" HorizontalAlignment="Left" Height="52" Margin="272,26,0,0" Grid.Row="13" VerticalAlignment="Top" Width="325" StrokeThickness="5" Stroke="White"/>
         <Label x:Name="label" Content="Students Grades" Grid.Column="1" HorizontalAlignment="Left" Margin="281,35,0,0" Grid.Row="13" VerticalAlignment="Top" Cursor="None" FontFamily="Trebuchet MS" Height="31" Width="292" FontSize="22" Foreground="#FF626B73" FontWeight="Bold"/>

@@ -33,11 +33,14 @@ namespace StudentGradeCalculator
             DataContext = Student.Read();
             Console.WriteLine(DataContext);
             //listBoxStudents.ItemsSource = myStudents;
+
+
+
         }
 
-        
 
-        
+
+
 
         private void Grades_Click(object sender, RoutedEventArgs e)
         {
